@@ -13,6 +13,8 @@
 // @include     https://github.com/*
 // @include     http://github.com/*
 // @grant       none
+// @updateURL   https://raw.githubusercontent.com/nokaa/git-your-life-back/master/git-your-life-back.user.js
+// @downloadURL https://raw.githubusercontent.com/nokaa/git-your-life-back/master/git-your-life-back.user.js
 // ==/UserScript==
 
 document.getElementById("contributions-calendar").parentElement.remove();
