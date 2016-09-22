@@ -17,4 +17,8 @@
 // @downloadURL https://raw.githubusercontent.com/nokaa/git-your-life-back/master/git-your-life-back.user.js
 // ==/UserScript==
 
-document.getElementById("contributions-calendar").parentElement.remove();
+var graph = document.getElementsByClassName("js-contribution-graph");
+
+for (i = 0; i < graph.length; i += 1) {
+    graph.item(0).remove();
+}
